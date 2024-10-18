@@ -452,7 +452,8 @@ content span {
 }
   */
 
-@media screen and (max-width: 1200px) {
+
+  @media screen and (max-width: 1200px) {
     .navbar {
       width: 100%;
       height: 100px;
@@ -493,10 +494,17 @@ content span {
       transform: translateX(-50%);
     }
   }
+
   
   @media screen and (max-width: 768px) {
-    .content h1 {
-      font-size: 40px;
+    .sidebar {
+      width:100%;
+      position:static;
+      height: auto;
+    }
+    .main-section{
+      margin-left: 0;
+      padding-left: 15px;
     }
   
     .content .cn {
@@ -510,6 +518,7 @@ content span {
       max-width: 300px;
     }
   }
+
 
 
 /*nid*/
