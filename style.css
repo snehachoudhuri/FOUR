@@ -5,13 +5,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-color: #201E43;
+    background-color: #fef5ec;
     font-family:cursive;
 }
 .sidebar{
     width: 250px;
     
-    background-color:#201E43;
+    background-color:#102C57;
     position: fixed;
     top:0;
     left:0;
@@ -20,7 +20,7 @@ body{
 }
 
 .sidebar-nav{
-    background-color: #2a2851;
+    background-color: #fef5ec;
     border-radius: 10px;
     padding: 5px 10px;
     margin-bottom: 10px;
@@ -34,7 +34,7 @@ body{
 }
 
 .sidebar-nav h2{
-    color: #bde2efe4;
+    color: #102C57;
     text-align: center;
     padding-top: 47px;
 }
@@ -50,7 +50,7 @@ body{
 
 .sidebar-nav ul li a{
     text-decoration: dashed;
-    color: #5d84b0e4;
+    color: #102C57;
     font-size: 20px;
     font-weight: 150px;
 }
@@ -60,21 +60,10 @@ body{
     color: white;
 }
 
-.sidebar-nav ul li a:hover{
-    text-decoration: dashed;
-    color: #bde2efe4;
-    font-size: 20px;
-    font-weight: 150px;
-}
 
-.sidebar-nav ul li a span img{
-    font-size: 10px;
-    font-weight: 100px;
-    color:#a9ccf4e4 ;
-}
 
 .Set-My-Password{
-    background-color:#3e3b75;
+    background-color:#102C57;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 5px;
@@ -82,7 +71,7 @@ body{
     height: 80px;
 }
 .Upload-My-Photo{
-    background-color:#3e3b75;
+    background-color:#102C57;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 5px;
@@ -90,14 +79,14 @@ body{
 }
 
 .Organisation-calender{
-    background-color:#3e3b75;
+    background-color:#102C57;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 5px;
     height: 80px;
 }
 .Sem-Feedback{
-    background-color:#3e3b75;
+    background-color:#102C57;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 5px;
@@ -106,23 +95,6 @@ body{
 .sidebar-scroll{
     height: 250px;
     overflow-y: auto;
-}
-
-.Set-My-Password button:hover{
-    padding: 6.5px;
-    border: solid 1.5px  rgb(173, 201, 226)
-}
-.Upload-My-Photo button:hover{
-    padding: 6.5px;
-    border: solid 1.5px  rgb(173, 201, 226)
-}
-.Organisation-calender button:hover{
-    padding: 6.5px;
-    border: solid 1.5px  rgb(173, 201, 226)
-}
-.Sem-Feedback button:hover{
-    padding: 6.5px;
-    border: solid 1.5px  rgb(173, 201, 226)
 }
 
 .sidebar-scroll::-webkit-scrollbar{
@@ -141,69 +113,24 @@ body{
 }
 
 .Organisation-calender h4{
-    color:rgb(173, 201, 226);
+    color:#fef5ec;
     text-align: center;
 }
 
 .Set-My-Password h4{
-    color: rgb(173, 201, 226);
+    color: #fef5ec;
     text-align: center;
 }
 
 .Upload-My-Photo h4{
-    color: rgb(173, 201, 226);
+    color: #fef5ec;
     text-align: center;
 }
 
 .Sem-Feedback h4{
-    color: rgb(173, 201, 226);
+    color: #fef5ec;
     text-align: center;
     
-}
-
-.Set-My-Password button{
-    padding: 5px;
-    text-align: center;
-    border-radius: 5px;
-    border:none;
-    color:rgb(173, 201, 226);
-    background-color: transparent;
-    outline: none;
-    border: 0;
-    border: 1px solid;
-}
-
-.Organisation-calender button{
-    padding: 5px;
-    text-align: center;
-    border-radius: 8px;
-    color:rgb(173, 201, 226) ;
-    background-color: transparent;
-    outline: none;
-    border: 0;
-    border: 1px solid;
-}
-
-.Upload-My-Photo button{
-    padding: 5px;
-    text-align: center;
-    border-radius: 8px;
-    color:rgb(173, 201, 226) ;
-    background-color: transparent;
-    outline: none;
-    border: 0;
-    border: 1px solid;
-}
-
-.Sem-Feedback button{
-    padding: 5px;
-    text-align: center;
-    border-radius: 8px;
-    color:rgb(173, 201, 226) ;
-    background-color: transparent;
-    outline: none;
-    border: 0;
-    border: 1px solid;
 }
 
 .box2{
@@ -212,7 +139,7 @@ body{
 }
 
 .box2 h3{
-    color: rgb(173, 201, 226) ;
+    color: #102C57;
     text-align: center;
     padding: 10px;
 }
@@ -228,11 +155,11 @@ body{
 .language button{
     padding: 8px;
     background-color: transparent;
-    color: rgb(173, 201, 226);
+    color: #102C57;
     border-radius: 7.5px;
     outline: none;
     border: 0;
-    border: 1px solid rgb(173, 201, 226);
+    border: 1px solid #102C57;
 }
 
 
@@ -244,6 +171,7 @@ body{
 
 .main-section{
     margin-left: 280px;
+    background: #2a2851;
 }
 .main {
     width: 100%;
@@ -275,14 +203,6 @@ body{
     height: 70px;
 }
 
-.logo {
-    color: #ff7720;
-    font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 20px;
-    float: left;
-    padding-top: 10px;
-}
   
 .menu {
     width: 400px;
@@ -306,7 +226,7 @@ body{
 
 .menu ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #102C57;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     transition: 0.4s ease-in-out;
@@ -314,13 +234,13 @@ body{
   
 ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #102C57;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     transition: 0.4s ease-in-out;
   }
   ul li a:hover {
-    color: #ff7720;
+    color: #DAC0A3;
   }
 .search {
     width: 0px;
@@ -335,9 +255,9 @@ ul li a {
     width: 550px;
     height: 40px;
     background: transparent;
-    border: 1px solid #ff7720;
+    border: 1px solid #102C57;
     margin-top: 13px;
-    color: #fff;
+    color: #102C57;
     border-right: none;
     font-size: 16px;
     float: left;
@@ -348,10 +268,10 @@ ul li a {
 .btn {
     width: 100px;
     height: 40px;
-    background: #ff7720;
-    border: 2px solid #ff7720;
+    background: #102C57;
+    border: 2px solid #102C57;
     margin-top: 13px;
-    color: #fff;
+    color: #FEFAF6;
     font-size: 16px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
@@ -362,8 +282,9 @@ ul li a {
     outline: none;
 }
 .btn:hover {
-    background-color: #fff;
-    color: #ff7720;
+    background-color: #DAC0A3;
+    color: #FEFAF6;;
+    border-color: #DAC0A3;
 }
 .srch:focus {
     outline: none;
@@ -372,7 +293,7 @@ ul li a {
     width: 1200px;
     height: auto;
     margin: auto;
-    color: #fff;
+    color: #102C57;
     
     position: absolute;
     top: 100px;
@@ -397,7 +318,7 @@ ul li a {
 .content .cn {
     width: 160px;
     height: 40px;
-    background: #ff7720;
+    background: #102C57;
     border: none;
     margin-bottom: 10px;
     margin-left: 60px;
@@ -408,15 +329,18 @@ ul li a {
 }
 .content .cn a {
     text-decoration: none;
-    color: #000;
+    color: #FEFAF6;
     transition: 0.3s ease;
 }
   
 .cn:hover {
-    background-color: #fff;
+    background-color: #DAC0A3;
+    
 }
+
+
 content span {
-    color: #ff7720;
+    color: #102C57;
     font-size: 60px;
 }
 .form {
@@ -426,8 +350,8 @@ content span {
     height: 380px;
     background: linear-gradient(
       to top,
-      rgba(0, 0, 0, 0.8) 50%,
-      rgba(0, 0, 0, 0.8) 50%
+      #102c57f1 50%,
+      #102c57f1 50%
     );
     position: absolute;
     top: 20px;
@@ -439,9 +363,9 @@ content span {
     width: 220px;
     font-family: sans-serif;
     text-align: center;
-    color: #ff7720;
+    color: #DAC0A3;
     font-size: 22px;
-    background-color: #fff;
+    background-color: #102C57;
     border-radius: 10px;
     margin: 2px;
     padding: 8px;
@@ -451,11 +375,11 @@ content span {
     width: 240px;
     height: 35px;
     background: transparent;
-    border-bottom: 1px solid #ff7720;
+    border-bottom: 1px solid #DAC0A3;
     border-top: none;
     border-right: none;
     border-left: none;
-    color: #fff;
+    color: #FEFAF6;
     font-size: 15px;
     letter-spacing: 1px;
     margin-top: 30px;
@@ -465,21 +389,21 @@ content span {
     outline: none;
 }
 ::placeholder {
-    color: #fff;
+    color: #FEFAF6;
     font-family: Arial;
 }
 .btnn {
     width: 240px;
     height: 40px;
-    background: #ff7720;
+    background: #DAC0A3;
     border: none;
     margin-top: 10px;
     font-size: 18px;
     border-radius: 10px;
 }
 .btnn:hover {
-    background-color: #fff;
-    color: #ff7720;
+    background-color: #102C57;
+    color: #FEFAF6;
 }
 .btnn a {
     text-decoration: none;
@@ -496,7 +420,7 @@ content span {
   
 .form .link a {
     text-decoration: none;
-    color: #ff7720;
+    color: #DAC0A3;
 }
 .log-in-with {
     font-family: Arial, Helvetica, sans-serif;
@@ -527,6 +451,7 @@ content span {
     color: #ff7720;
 }
   */
+
 @media screen and (max-width: 1200px) {
     .navbar {
       width: 100%;
@@ -585,3 +510,206 @@ content span {
       max-width: 300px;
     }
   }
+
+
+/*nid*/
+
+.mid-section-two{
+    padding-left: 340px;
+    padding-top: 500px;
+    
+}
+/*Mentor info */
+.container {
+    display: flex;
+  }
+  
+  .idk {
+    flex: 1;
+  }
+.mid-section .card .idk{
+    min-width: 140px;
+    width: 200px;
+    background-color: #102C57;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 5.5px;
+
+}
+.mid-section .card  h4{
+    color: #DAC0A3;
+}
+.mid-section .card .item img{
+    min-width: 140px;
+    width: 190px;
+    height: 100%;
+    background-color: #102C57;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px 2px rgba(0 ,0 ,0 ,.1);
+    display: block;
+    transition: 1s;
+}
+.mid-section-two .card .item .slot-btn{
+    
+    background: #102C57;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 15px;
+}
+.card .idk .h4{
+    text-align: center;
+}
+.sbt {
+    height: 30px;
+    width: 189px;
+    background: #DAC0A3;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.container{
+    display:grid
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+}
+
+.item {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .item > img:hover {
+    display: block;
+    width: 100%;
+    height: 10px;
+    object-fit: cover;
+    object-position: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .item > .content {
+    position: absolute;
+    inset: 0;
+    font-size: 13.5px;
+    padding: 5px 5px;
+    background: rgba(255, 255, 255, .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .item > img,
+  .item > .content {
+    transition: 300ms ease-in-out;
+    border-radius: 10px;
+    margin-bottom: 6px;
+  }
+  
+  .item:hover > img.blur {
+    filter: blur(5px);
+    border-radius: 10px;
+  }
+  
+  .item:hover > img.gray {
+    filter: grayscale(1);
+    border-radius: 10px;
+  }
+  
+  .item:hover > img.zoom {
+    transform: scale(1.1);
+  }
+  
+  .item > .content.fade {
+    opacity: 0;
+  }
+  .item:hover > .content.fade .ul .li{
+    opacity: 1;
+  }
+
+  .item:hover .content {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; 
+  }
+  
+  /*.item > .content.slide-left {
+    transform: translateX(-100%);
+  }
+  .item:hover > .content.slide-left {
+    transform: translateX(0);
+  }
+  
+  .item > .content.slide-right {
+    transform: translateX(100%);
+  }
+  .item:hover > .content.slide-right {
+    transform: translateX(0);
+  }
+  
+  .item > .content.slide-down {
+    transform: translateY(-100%);
+  }
+  .item:hover > .content.slide-down {
+    transform: translateY(0);
+  }
+  
+  .item > .content.slide-up {
+    transform: translateY(100%);
+  }
+  .item:hover > .content.slide-up {
+    transform: translateY(0);
+  }*/
+
+  /* Dropdown Button */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .show {display:block;}
