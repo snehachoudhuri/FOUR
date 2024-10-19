@@ -593,6 +593,7 @@ content span {
     padding: 5.5px;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 20px;
 
 }
 .mid-section .card  h4{
@@ -606,6 +607,7 @@ content span {
     cursor: pointer;
     border-radius: 8px;
     margin-bottom: 10px;
+    margin-right: 0px;
     box-shadow: 0 0 20px 2px rgba(0 ,0 ,0 ,.1);
     display: block;
     transition: 1s;
@@ -624,15 +626,31 @@ content span {
     height: 30px;
     width: 189px;
     background: #DAC0A3;
+    
     border: none;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 15px;
     border-radius: 10px;
 }
-
+.sbt a{
+  color: #102C57;
+}
+.book-box {
+ /* border: 1px solid #ccc; */
+  padding: 50px; 
+  margin-left: 200px;
+  margin-top: -200px;
+}
+.book-btn {
+  background-color: #102C57; 
+  color: #DAC0A3; 
+  border-color: #102C57; 
+  padding: 8px;
+  border-radius: 10px;
+}
 .container{
-    display:grid
+    display:grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
 }
 
@@ -666,7 +684,7 @@ content span {
   .item > .content {
     transition: 300ms ease-in-out;
     border-radius: 10px;
-    margin-bottom: 6px;
+    margin-bottom: 0px;
   }
   
   .item:hover > img.blur {
@@ -705,6 +723,7 @@ content span {
     justify-content: center;
     padding: 20px; 
   }
+  
   
   /*.item > .content.slide-left {
     transform: translateX(-100%);
